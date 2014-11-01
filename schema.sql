@@ -1,0 +1,8 @@
+CREATE TABLE `test`.`achievements` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL DEFAULT '',
+  `achievementId` INTEGER UNSIGNED NOT NULL DEFAULT 0,
+  `details` TEXT NOT NULL DEFAULT '',
+  PRIMARY KEY(`id`)
+)
+ENGINE = InnoDB;
