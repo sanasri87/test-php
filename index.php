@@ -54,7 +54,7 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header page-scroll">
+			<div class="page-scroll">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
 					data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span> <span
@@ -74,16 +74,22 @@
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="hidden"><a href="#page-top"></a></li>
-					<li><a class="page-scroll" href="#pillars">Pillars of engagement</a></li>
-					<!--                     <li> -->
-					<!--                         <a class="page-scroll" href="#education">Education</a> -->
-					<!--                     </li> -->
-					<!--                     <li> -->
-					<!--                         <a class="page-scroll" href="#research">Research</a> -->
-					<!--                     </li> -->
-					<!--                     <li> -->
-					<!--                         <a class="page-scroll" href="#endowment">Endowments</a> -->
-					<!--                     </li> -->
+					<li class="dropdown">
+					    <a class="dropdown-toggle page-scroll" data-toggle="dropdown" href="#">
+					      Pillars of engagement <span class="caret"></span>
+					    </a>
+					    <ul class="dropdown-menu" style="background-color: #222;width: 100%;">
+					      <li>
+							<a class="page-scroll" href="#education">Education</a>
+							</li>
+							<li>
+							<a class="page-scroll" href="#portfolio">Research</a>
+							</li>
+							<li>
+							<a class="page-scroll" href="#endowment">Endowments</a>
+							</li>
+					    </ul>
+					  </li>
 					<li><a class="page-scroll" href="#download">Download</a></li>
 					<li><a class="page-scroll" href="#contact">Contact</a></li>
 				</ul>
@@ -427,7 +433,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="team-member">
 						<img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
 						<h4>Dr. Vasudeva Varma</h4>
@@ -441,7 +447,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="team-member">
 						<img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
 						<h4>Madhavi Kolla</h4>
@@ -456,7 +462,21 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3">
+					<div class="team-member">
+						<img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+						<h4>Phaneendra A</h4>
+						<p class="text-muted">Assistant Manager</p>
+						<ul class="list-inline social-buttons">
+							<li><a href="mailto:phani@iiit.ac.in"><i class="fa fa-envelope"></i></a>
+							
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3">
 					<div class="team-member">
 						<img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
 						<h4>Phaneendra A</h4>
@@ -1085,12 +1105,14 @@
 			origOffsetY = 1000;
 			function scroll() {
 				if ($(window).scrollTop() >= origOffsetY) {
-					$('#logo').height(30).width(30);
+					//$('#logo').height(30).width(30);
+					$('.navbar-header').css("padding-top","20px");
 				} else {
-					$('#logo').height(100).width(100);
+					//$('#logo').height(100).width(100);
+					$('.navbar-header').css("padding-top","5px");
 				}
 			}
-			document.onscroll = scroll;
+			//document.onscroll = scroll;
 		})
 	</script>
 </body>

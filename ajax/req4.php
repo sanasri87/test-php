@@ -1,6 +1,8 @@
 <?php
 extract($_POST);
 include('../config.php');
+include('../attach.php');
+
 session_start();
 
 if($_POST['act'] == 'req'.$idpost):
@@ -38,8 +40,10 @@ if($_POST['act'] == 'req'.$idpost):
     // message lines should not exceed 70 characters (PHP rule), so wrap it
     $message = wordwrap($message, 70);
     // send mail
-    mail($from,$req_config["name"],$message,"From: $from\n");
-    
+	if(strlen($files)>0)
+    	mail_attachment($files, dirname(__FILE__).'/../', $from, $from, $from, $from, $req_config["name"], $message);
+    else
+	    mail($from,$req_config["name"],$message,"From: $from\n");        
     if(!mysql_errno()){
 ?>
     <div class="cmt-cnt">

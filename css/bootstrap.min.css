@@ -2228,7 +2228,6 @@ tbody.collapse.in {
     min-width: 160px;
     padding: 5px 0;
     margin: 2px 0 0;
-    font-size: 14px;
     text-align: left;
     list-style: none;
     background-color: #fff;
@@ -2262,7 +2261,7 @@ tbody.collapse.in {
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     color: #262626;
     text-decoration: none;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
     color: #fff;
@@ -2467,6 +2466,9 @@ tbody.collapse.in {
     width: 100%}
 .btn-group-justified>.btn-group .dropdown-menu {
     left: auto;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
 }
 [data-toggle=buttons]>.btn>input[type=radio], [data-toggle=buttons]>.btn>input[type=checkbox] {
     position: absolute;

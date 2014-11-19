@@ -29,5 +29,5 @@ function mail_attachment($filename, $path, $mailto, $from_mail, $from_name, $rep
         echo "mail send ... ERROR!";
     }
 }
-mail_attachment("attachmail.php", dirname(__FILE__).'/', "sanasri87@gmail.com", "sanasri87@gmail.com", "sanasri87@gmail.com", "sanasri87@gmail.com", "Hi", "Hello");
+//mail_attachment("attachmail.php", dirname(__FILE__).'/', "sanasri87@gmail.com", "sanasri87@gmail.com", "sanasri87@gmail.com", "sanasri87@gmail.com", "Hi", "Hello");
 ?>
