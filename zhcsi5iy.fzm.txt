@@ -1,0 +1,129 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .buildpath
+#	modified:   .gitattributes
+#	modified:   .project
+#	modified:   .settings/.jsdtscope
+#	modified:   .settings/org.eclipse.php.core.prefs
+#	modified:   .settings/org.eclipse.wst.common.project.facet.core.xml
+#	modified:   UploadHandler.php
+#	modified:   admin-old/connect.php
+#	modified:   admin-old/data.php
+#	modified:   admin-old/index.php
+#	modified:   admin/ajax1.php
+#	modified:   admin/ajax2.php
+#	modified:   admin/ajaxLogin.php
+#	modified:   admin/css/style.css
+#	modified:   admin/functions/functions.php
+#	modified:   admin/grid.php
+#	modified:   admin/index.php
+#	modified:   admin/logout.php
+#	modified:   admin/main.php
+#	modified:   ajax/add-comment.php
+#	modified:   ajax/contr1.php
+#	modified:   ajax/contr2.php
+#	modified:   ajax/contr3.php
+#	modified:   ajax/contr4.php
+#	modified:   ajax/contr5.php
+#	modified:   ajax/contr6.php
+#	modified:   ajax/contr7.php
+#	modified:   ajax/contr8.php
+#	modified:   ajax/contr9.php
+#	modified:   ajax/req1.php
+#	modified:   ajax/req10.php
+#	modified:   ajax/req11.php
+#	modified:   ajax/req12.php
+#	modified:   ajax/req13.php
+#	modified:   ajax/req14.php
+#	modified:   ajax/req2.php
+#	modified:   ajax/req3.php
+#	modified:   ajax/req4.php
+#	modified:   ajax/req5.php
+#	modified:   ajax/req6.php
+#	modified:   ajax/req7.php
+#	modified:   ajax/req8.php
+#	modified:   ajax/req9.php
+#	modified:   ajaxLogin/ajaxLogin.php
+#	modified:   ajaxLogin/css/style.css
+#	modified:   ajaxLogin/db.php
+#	modified:   ajaxLogin/home.php
+#	modified:   ajaxLogin/index.php
+#	modified:   ajaxLogin/logout.php
+#	modified:   attach.php
+#	modified:   attachmail.php
+#	modified:   config.php
+#	modified:   css/agency.css
+#	modified:   css/bootstrap.min.css
+#	modified:   css/comments.css
+#	modified:   css/example.css
+#	modified:   css/galleria.css
+#	modified:   css/login.css
+#	modified:   css/style.css
+#	modified:   css/styles.css
+#	modified:   files.php
+#	modified:   fileupload.php
+#	modified:   fileupload/UploadHandler.php
+#	modified:   fileupload/css/bootstrap.min.css
+#	modified:   fileupload/css/styles.css
+#	modified:   fileupload/files.php
+#	modified:   fileupload/index.php
+#	modified:   fileupload/js/jquery.fileupload.js
+#	modified:   fileupload/js/jquery.iframe-transport.js
+#	modified:   fileupload/js/jquery.ui.widget.js
+#	modified:   form.php
+#	modified:   htmlemail/js/jquery.form.js
+#	modified:   index.php
+#	modified:   internal/UploadHandler.php
+#	modified:   internal/ajaxLogin.php
+#	modified:   internal/css/style.css
+#	modified:   internal/files.php
+#	deleted:    internal/files/jquery-ui.js
+#	deleted:    internal/files/jquery.easing.min.js
+#	deleted:    internal/files/kaushan.script.css
+#	modified:   internal/index.php
+#	modified:   internal/logout.php
+#	modified:   internal/main.php
+#	modified:   js/agency.js
+#	modified:   js/comment.js
+#	modified:   js/contact_me.js
+#	modified:   js/galleria.js
+#	modified:   js/jquery-1.11.0.js
+#	modified:   js/jquery.fileupload.js
+#	modified:   js/jquery.iframe-transport.js
+#	modified:   js/jquery.ui.widget.js
+#	modified:   js/login.js
+#	modified:   js/moment.js
+#	modified:   less/agency.less
+#	modified:   less/mixins.less
+#	modified:   less/variables.less
+#	modified:   login/index.php
+#	modified:   logout.php
+#	modified:   mail.php
+#	modified:   mail/contact_me.php
+#	modified:   mail/mailoutput/mail-20140930-1830-123000.txt
+#	modified:   mail/mailoutput/mail-20140930-1830-279000.txt
+#	modified:   mail/mailoutput/mail-20140930-1830-82000.txt
+#	modified:   mail/mailoutput/mail-20140930-1833-711000.txt
+#	modified:   mail/mailoutput/mail-20140930-1849-346000.txt
+#	modified:   schema.sql
+#	modified:   table.sql
+#
+# Untracked files:
+#	css/asAccordion.css
+#	css/easy-responsive-tabs.css
+#	css/normalize.css
+#	css/prism.css
+#	index2.php
+#	js/easyResponsiveTabs.js
+#	js/jquery-asAccordion.js
+#	js/jquery.blockUI.js
+#	js/jquery.toc.min.js
+#	js/prism.js
+#	requestmodals.php
+#
+
